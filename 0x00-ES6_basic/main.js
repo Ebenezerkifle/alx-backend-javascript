@@ -1,6 +1,7 @@
 import createEmployeesObject from "./11-createEmployeesObject.js";
 import createReportObject from "./12-createReportObject.js";
 import createIteratorObject from "./100-createIteratorObject.js";
+import iterateThroughObject from "./101-iterateThroughObject.js";
 
 console.log('----------------------------------------------');
 const employees = {
@@ -18,3 +19,13 @@ const reportWithIterator = createIteratorObject(report);
 for (const item of reportWithIterator) {
     console.log(item);
 }
+console.log('*********************************************');
+const employees2 = {
+    ...createEmployeesObject('engineering', ['Bob', 'Jane']),
+    ...createEmployeesObject('marketing', ['Sylvie'])
+};
+
+const report3 = createReportObject(employees2);
+const reportWithIterator2 = createIteratorObject(report3);
+
+console.log(iterateThroughObject(reportWithIterator2));
