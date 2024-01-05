@@ -1,6 +1,6 @@
  ## 0x00. ES6 Basics
-JavaScript
-ES6
+ ## JavaScript
+ # ES6
  By: Johann Kerbrat, Engineering Manager at Uber Works
  Weight: 1
  Project will start Jan 2, 2024 6:00 AM, must end by Jan 4, 2024 6:00 AM
@@ -9,20 +9,21 @@ ES6
 Concepts
 For this project, we expect you to look at these concepts:
 
-Modern Javascript
-Software Linter
+ * [Modern Javascript](https://intranet.alxswe.com/concepts/541)
+ * [Software Linter](https://intranet.alxswe.com/concepts/542)
 
 
-Resources
-Read or watch:
+ ## Resources
+ # Read or watch:
 
-ECMAScript 6 - ECMAScript 2015
-Statements and declarations
-Arrow functions
-Default parameters
-Rest parameter
-Javascript ES6 — Iterables and Iterators
-Learning Objectives
+ * [ECMAScript 6 - ECMAScript 2015](https://intranet.alxswe.com/rltoken/NW1dFLFExQ12_hD8yvkV3A)
+ * [Statements and declarations](https://intranet.alxswe.com/rltoken/sroRUsUvOZV28V99MHDenw)
+ * [Arrow functions](https://intranet.alxswe.com/rltoken/N2WLylppCtkkX3YFFtyUHw)
+ * [Default parameters](https://intranet.alxswe.com/rltoken/kbw9gMO6sdeOKAY23SYVgA)
+ * [Rest parameter](https://intranet.alxswe.com/rltoken/erZfCvacuGVk9z1CQlJvYQ)
+ * [Javascript ES6 — Iterables and Iterators](https://intranet.alxswe.com/rltoken/VVeG6soHx8EH1jm1wjzhnA)
+
+ ## Learning Objectives
 At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
 
 What ES6 is
