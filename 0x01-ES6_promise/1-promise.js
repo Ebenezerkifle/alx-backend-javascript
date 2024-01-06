@@ -1,6 +1,6 @@
 export default function getFullResponseFromAPI(sucess){
     return new Promise(
-        function(resolved, reject){
+        (resolved, reject)=>{
             if(sucess){
                 resolved(
                     {
