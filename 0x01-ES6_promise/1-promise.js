@@ -5,7 +5,7 @@ export default function getFullResponseFromAPI(sucess){
                 resolved(
                     {
                         "status":200,
-                        "body":"sucess"
+                        "body":"Success"
                     }
                 )
             }
