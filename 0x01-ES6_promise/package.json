@@ -1,7 +1,0 @@
-{
-    "type":"module",
-    "scripts": {
-        "start": "node 1-main.js"
-    }
-
-}

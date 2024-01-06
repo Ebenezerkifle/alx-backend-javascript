@@ -1,0 +1,6 @@
+{
+    "scripts": {
+        "start":"node main_all.js"
+    },
+    "type": "module"
+}
