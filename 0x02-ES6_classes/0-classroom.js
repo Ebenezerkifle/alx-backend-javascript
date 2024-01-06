@@ -1,6 +1,6 @@
-export default class ClassRome{
+export default class ClassRome {
   _maxStudentsSize;
-  constructor(maxStudentsSize){
+  constructor(maxStudentsSize) {
     this._maxStudentsSize =  maxStudentsSize;
   }
 }
