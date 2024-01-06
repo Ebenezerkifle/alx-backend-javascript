@@ -3,5 +3,5 @@ export default function uploadPhoto(){
 }
 
 export default function createUser(){
-    return new Promise();
+    return new Promise()
 }
