@@ -1,7 +1,7 @@
-export default function getFullResponseFromAPI(sucess){
+export default function getFullResponseFromAPI(sucess) {
   return new Promise(
-    (resolved, reject)=>{
-      if(sucess){
+    (resolved, reject) => {
+      if (sucess) {
         resolved(
           {
             status:200,
