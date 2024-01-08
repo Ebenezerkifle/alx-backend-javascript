@@ -4,6 +4,7 @@ import createIteratorObject from "./100-createIteratorObject.js";
 import iterateThroughObject from "./101-iterateThroughObject.js";
 import getListStudentIds from "../0x03-ES6_data_manipulation/1-get_list_student_ids.js";
 import getListStudents from "../0x03-ES6_data_manipulation/0-get_list_students.js";
+import getStudentsByLocation from "../0x03-ES6_data_manipulation/2-get_students_by_loc.js";
 
 console.log('----------------------------------------------');
 const employees = {
@@ -35,3 +36,8 @@ console.log('%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%50');
 console.log(getListStudents());
 console.log(getListStudentIds(getListStudents()));
 console.log(getListStudentIds("Abeni"));
+console.log('%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%50');
+
+const students = getListStudents();
+
+console.log(getStudentsByLocation(students, 'San Francisco'));
