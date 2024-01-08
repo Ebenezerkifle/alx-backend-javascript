@@ -9,5 +9,6 @@ export default function iterateThroughObject(reportWithIterator) {
     }
     index++;
   }
+
   return result;
 }
