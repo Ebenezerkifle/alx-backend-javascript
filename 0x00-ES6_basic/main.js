@@ -2,7 +2,8 @@ import createEmployeesObject from "./11-createEmployeesObject.js";
 import createReportObject from "./12-createReportObject.js";
 import createIteratorObject from "./100-createIteratorObject.js";
 import iterateThroughObject from "./101-iterateThroughObject.js";
-import getListStudents from "../0x03-ES6_data_manipulation/1-get_list_student_ids.js";
+import getListStudentIds from "../0x03-ES6_data_manipulation/1-get_list_student_ids.js";
+import getListStudents from "../0x03-ES6_data_manipulation/0-get_list_students.js";
 
 console.log('----------------------------------------------');
 const employees = {
@@ -32,3 +33,5 @@ const reportWithIterator2 = createIteratorObject(report3);
 console.log(iterateThroughObject(reportWithIterator2));
 console.log('%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%50');
 console.log(getListStudents());
+console.log(getListStudentIds(getListStudents()));
+console.log(getListStudentIds("Abeni"));
