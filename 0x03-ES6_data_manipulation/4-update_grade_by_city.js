@@ -1,7 +1,11 @@
-export default function updateStudentGradeByCity(array, city, newGrades) {
-  return array.filter((studnets) => studnets.location == city).map((student) => {
-    const myGrade = newGrades.filter((grade) => grade.studentId == student.id)[0];
-    student['grade'] = (myGrade != undefined && myGrade.grade != undefined) ? myGrade.grade : 'N/A';
-    return student;
-  });
+export default function getStudentsByLocation(array, city, grad) {
+  return array
+    .filter((i) => i.location === city)
+    .map((student) => {
+      const gradeI = grad
+        .filter((i) => i.studentId === student.id)
+        .map((x) => x.grade)[0];
+      const grade = gradeI || 'N/A';
+      return { ...student, grade };
+    });
 }
