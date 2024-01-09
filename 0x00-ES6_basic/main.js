@@ -5,6 +5,7 @@ import iterateThroughObject from "./101-iterateThroughObject.js";
 import getListStudentIds from "../0x03-ES6_data_manipulation/1-get_list_student_ids.js";
 import getListStudents from "../0x03-ES6_data_manipulation/0-get_list_students.js";
 import getStudentsByLocation from "../0x03-ES6_data_manipulation/2-get_students_by_loc.js";
+import getStudentIdsSum from "../0x03-ES6_data_manipulation/3-get_ids_sum.js";
 
 console.log('----------------------------------------------');
 const employees = {
@@ -38,6 +39,11 @@ console.log(getListStudentIds(getListStudents()));
 console.log(getListStudentIds("Abeni"));
 console.log('%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%50');
 
-const students = getListStudents();
+// const students = getListStudents();
 
-console.log(getStudentsByLocation(students, 'San Francisco'));
+// console.log(getStudentsByLocation(students, 'San Francisco'));
+
+const students = getListStudents();
+const value = getStudentIdsSum(students);
+
+console.log(value);
