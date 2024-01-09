@@ -1,8 +1,9 @@
-export default function updateStudentGradeByCity(list, city, newGrades) {
-  const filtered = list.filter((e) => {
-    if(e.location == city) {
-      newGrades.filter((grade) => grade.studentId == e.id);
-    }
+export default function updateStudentGradeByCity(array, city, newGrades) {
+  const filtered = array.filter((studnets) => studnets.location == city);
+  const students = filtered.map((student) => {
+    const myGrade = newGrades.filter((grade) => grade.studentId == student.id)[0];
+    student['grade'] = (myGrade != undefined && myGrade.grade != undefined) ? myGrade.grade : 'N/A';
+    return student;
   });
-  return filtered;
+  return students;
 }
