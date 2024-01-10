@@ -7,6 +7,7 @@ import getListStudents from "../0x03-ES6_data_manipulation/0-get_list_students.j
 import getStudentsByLocation from "../0x03-ES6_data_manipulation/2-get_students_by_loc.js";
 import getStudentIdsSum from "../0x03-ES6_data_manipulation/3-get_ids_sum.js";
 import updateStudentGradeByCity from "../0x03-ES6_data_manipulation/4-update_grade_by_city.js";
+import setFromArray from "../0x03-ES6_data_manipulation/6-set.js";
 
 console.log('----------------------------------------------');
 const employees = {
@@ -51,3 +52,6 @@ console.log('%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%50');
 console.log(updateStudentGradeByCity(getListStudents(), "San Francisco", [{ studentId: 5, grade: 97 }, { studentId: 1, grade: 86 }]));
 
 console.log(updateStudentGradeByCity(getListStudents(), "San Francisco", [{ studentId: 5, grade: 97 }]));
+console.log('***********************************');
+
+console.log(setFromArray([12, 32, 15, 78, 98, 15]));
