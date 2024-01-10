@@ -9,6 +9,7 @@ import getStudentIdsSum from "../0x03-ES6_data_manipulation/3-get_ids_sum.js";
 import updateStudentGradeByCity from "../0x03-ES6_data_manipulation/4-update_grade_by_city.js";
 import setFromArray from "../0x03-ES6_data_manipulation/6-set.js";
 import hasValuesFromArray from "../0x03-ES6_data_manipulation/7-has_array_values.js";
+import cleanSet from "../0x03-ES6_data_manipulation/8-clean_set.js";
 
 console.log('----------------------------------------------');
 const employees = {
@@ -61,3 +62,8 @@ console.log('&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&7');
 console.log(hasValuesFromArray(new Set([1, 2, 3, 4, 5]), [1]));
 console.log(hasValuesFromArray(new Set([1, 2, 3, 4, 5]), [10]));
 console.log(hasValuesFromArray(new Set([1, 2, 3, 4, 5]), [1, 10]));
+
+
+console.log('&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&7');
+console.log(cleanSet(new Set(['bonjovi', 'bonaparte', 'bonappetit', 'banana']), 'bon'));
+console.log(cleanSet(new Set(['bonjovi', 'bonaparte', 'bonappetit', 'banana']), ''));
